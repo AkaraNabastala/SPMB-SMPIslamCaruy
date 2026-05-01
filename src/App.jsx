@@ -190,7 +190,7 @@ function App() {
             <div className="relative aspect-[4/5] bg-emerald-950 group overflow-hidden">
               <img src={schoolData.flyer} alt="Flyer SPMB" className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-1 transition-all duration-1000 ease-out opacity-70" />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-950 via-emerald-950/50 to-transparent flex flex-col justify-end p-6 text-center">
-                <div className="bg-yellow-400 text-emerald-950 text-xs font-black px-3 py-1 rounded-full w-max mx-auto mb-3 animate-pulse">2026/2027</div>
+                <div className="bg-yellow-400 text-emerald-950 text-xs font-black px-3 py-1 rounded-full w-max mx-auto mb-3 animate-pulse">{schoolData.tahunPelajaran}</div>
                 <h3 className="text-3xl font-black text-white mb-2 drop-shadow-2xl translate-y-2 group-hover:translate-y-0 transition-transform duration-500">SPMB <span className="text-yellow-400">DIBUKA!</span></h3>
                 <p className="text-emerald-100/90 text-sm font-medium translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-700 delay-100">Jadilah bagian dari generasi berprestasi dan berakhlak mulia.</p>
               </div>
@@ -229,7 +229,7 @@ function App() {
                   crossOrigin="anonymous" 
                 />
                 <h2 className="text-yellow-400 font-black text-xs sm:text-sm tracking-widest uppercase leading-tight">{schoolData.name}</h2>
-                <p className="text-emerald-200 text-[9px] sm:text-[10px] font-bold mt-1.5 tracking-widest uppercase">T.A {schoolData.tahunAjaran}</p>
+                <p className="text-emerald-200 text-[9px] sm:text-[10px] font-bold mt-1.5 tracking-widest uppercase">T.A {schoolData.tahunPelajaran}</p>
                 
                 {/* Efek Bolongan Tiket (Kiri & Kanan Stub) */}
                 <div className="absolute -left-3 top-1/2 w-6 h-6 bg-emerald-950 rounded-full transform -translate-y-1/2 shadow-inner"></div>

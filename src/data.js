@@ -1,5 +1,6 @@
 import bgWeb from './assets/background.jpg';
 import logoSekolah from './assets/logosmpi.png';
+import flyer from './assets/flyer.jpeg';
 
 export const schoolData = {
   name: "SMP ISLAM CARUY",
@@ -14,11 +15,12 @@ export const schoolData = {
   // Data Khusus untuk Generate Nomor Registrasi Tiket
   kodeSekolah: "219",
   tahunAjaran: "2627",
+  tahunPelajaran: "2026/2027",
   
   logo: logoSekolah,
-  flyer: bgWeb, 
+  flyer: flyer, 
   background: bgWeb, 
   
-  waGroupLink: "https://chat.whatsapp.com/GANTI_DENGAN_LINK_ASLI", 
-  creatorLink: "https://github.com/dicha-a540158c534b5c26eb9d853f31274600e466bff3"
+  waGroupLink: "https://chat.whatsapp.com/JiHBtebaeEZ12FuTToq5D5?mode=gi_t", 
+  creatorLink: "https://akaranabastala.github.io/portofolio_dicha/"
 };
